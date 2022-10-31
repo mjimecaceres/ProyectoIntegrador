@@ -1,0 +1,41 @@
+.row{
+    padding: 10px;
+
+}
+div{
+    background-color: #a1b5cb;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+#fotodeperfil{
+position: absolute;
+width:15%;
+box-shadow: 3px 3px 3px grey;
+left: 3%;
+top: 720px;
+}
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+    position: absolute;
+    width: 30%;
+    box-shadow: 3px 3px 3px grey;
+    left: 33%;
+    top: 280px;
+    }
+    }
+    /*etiqueta nomre*/
+    #nombre{
+        
+        margin-top: 20%;
+        font-family: 'Dosis', sans-serif;
+        margin-left: 15%;
+        }
+    #full{
+        font-weight: bold;
+        margin-left: 15%;
+       
+        
+    }

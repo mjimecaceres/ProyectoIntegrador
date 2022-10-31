@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoAp{
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+img{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.btn{
+    margin-right: 0.5em;
+}
